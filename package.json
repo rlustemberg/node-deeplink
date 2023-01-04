@@ -1,6 +1,6 @@
 {
-  "name": "node-deeplink",
-  "version": "0.6.0",
+  "name": "deeplink-handler",
+  "version": "0.7.0",
   "description": "Easily create an endpoint in your web server that redirects deep links to mobile apps",
   "main": "lib/deeplink.js",
   "scripts": {
@@ -8,20 +8,20 @@
     "fix:prettier": "prettier --write '**/*.{js,md,html}'",
     "test": "npm run test:prettier && mocha test/test.js -t 4000"
   },
-  "author": "Michael Derazon <mderazon@hotmail.com>",
-  "homepage": "https://github.com/mderazon/node-deeplink",
+  "author": "Richard Lustemberg <richard@theappartisan.com>",
+  "homepage": "https://github.com/rlustemberg/node-deeplink",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mderazon/node-deeplink.git"
+    "url": "git@github.com:rlustemberg/node-deeplink.git"
   },
   "license": "MIT",
   "dependencies": {
-    "html-inline": "^1.2.0"
+    "inline-source": "^8.0.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "express": "^4.17.1",
-    "mocha": "^7.2.0",
+    "mocha": "^10.2.0",
     "prettier": "^2.0.5",
     "zombie": "^6.1.4"
   },
