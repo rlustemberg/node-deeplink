@@ -6,7 +6,7 @@ Takes away the pain of forwarding users to the right app store / mobile app depe
 ## Important
 This is a fork of node-deeplink ( https://github.com/mderazon/node-deeplink ). The original module has security issue due to its dependency on `html-inline`, which is no longer maintained.
 This module depends on `inline-source` instead. For the rest, its API has remained the same and can be used as drop in replacement for `node-deeplink`.
-As of this moment, the less critical development dependencies have not been updated.
+
 
 
 ## Notice regarding Apple's handling of url schemes.
