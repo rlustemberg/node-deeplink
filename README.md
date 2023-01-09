@@ -1,4 +1,4 @@
-# deeplink-handler [![Build Status](https://travis-ci.org/mderazon/node-deeplink.svg?branch=master)](https://travis-ci.org/mderazon/node-deeplink) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+# deeplink-handler [![Build Status](https://app.travis-ci.com/rlustemberg/node-deeplink.svg?branch=master)](https://app.travis-ci.com/rlustemberg/node-deeplink) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > Easily create express endpoint to handle mobile deeplinks in your web server
 
