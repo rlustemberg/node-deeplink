@@ -1,6 +1,11 @@
-sudo: false
 language: node_js
 node_js:
-  - "18"
+  - "14"
   - "16"
-  - "node"
+  - "18"
+
+install:
+  - npm install
+
+script:
+  - npm test
