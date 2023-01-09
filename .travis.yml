@@ -1,6 +1,7 @@
+dist: trusty
 language: node_js
 node_js:
-  - "14"
+  - "node"
   - "16"
   - "18"
 
