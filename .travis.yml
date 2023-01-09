@@ -1,11 +1,10 @@
 language: node_js
 node_js:
-  - "node"
-  - "16"
-  - "18"
+  - "17"
 
 install:
   - npm install
 
 script:
   - npm test
+
